@@ -47,3 +47,4 @@ end
 gem 'oj'
 gem 'oj_mimic_json'
 gem 'skylight'
+gem 'geocoder'

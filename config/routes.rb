@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   resources :projects, only: [:index]
+  resources :geolocations, only: [:show] do
+    get 'current', on: :collection
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
