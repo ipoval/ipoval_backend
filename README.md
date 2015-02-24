@@ -1,4 +1,4 @@
-== README
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ```
 curl -i 'https://ipovalbackend.herokuapp.com/projects'
@@ -19,6 +19,3 @@ Via: 1.1 vegur
 
 ["Gobller","Machinima"]
 ```
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
