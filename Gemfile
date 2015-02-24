@@ -48,3 +48,6 @@ gem 'oj'
 gem 'oj_mimic_json'
 gem 'skylight'
 gem 'geocoder'
+
+# adds two other gems `rails_serve_static_assets` and `rails_stdout_logging`
+gem 'rails_12factor', group: :production
