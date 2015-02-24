@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-  resources :projects, only: [:index]
+  resources :projects, only: [:index], format: 'json'
   resources :geolocations, only: [:show] do
     get 'current', on: :collection
   end
