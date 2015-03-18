@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  mount Split::Dashboard, :at => 'split'
+  mount Split::Dashboard, at: 'split'
 
   root 'application#index'
 
