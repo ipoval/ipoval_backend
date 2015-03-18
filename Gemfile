@@ -36,7 +36,7 @@ gem 'unicorn'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
+  gem 'method_source'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -51,3 +51,4 @@ gem 'geocoder'
 
 # adds two other gems `rails_serve_static_assets` and `rails_stdout_logging`
 gem 'rails_12factor', group: :production
+gem 'split', :require => 'split/dashboard'
